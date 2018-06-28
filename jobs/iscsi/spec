@@ -1,0 +1,10 @@
+---
+name: iscsi
+
+templates: 
+  pre-start.sh.erb: bin/pre-start
+
+packages: 
+- iscsi
+
+properties: {}

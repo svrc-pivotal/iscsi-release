@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -ex
+
+cd /var/vcap/packages/iscsi
+DEBIAN_FRONTEND=noninteractive
+dpkg -i *.deb
