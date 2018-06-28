@@ -1,1 +1,6 @@
+---
 name: iscsi
+blobstore:
+  provider: gcs
+  options:
+    bucket_name: pivotal-iscsi
