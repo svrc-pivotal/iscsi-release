@@ -1,0 +1,12 @@
+---
+name: iscsi-addons
+
+releases:
+- name: iscsi
+  version: 1.0
+
+addons:
+  - name: iscsi
+    jobs:
+    - name: iscsi
+      release: iscsi
