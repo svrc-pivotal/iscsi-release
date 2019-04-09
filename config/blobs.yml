@@ -1,9 +1,8 @@
-kpartx_0.4.9-3ubuntu7_amd64.deb:
-  size: 24972
-  sha: 7e861983cde95403d02609c1958c8705b71d0f25
-multipath-tools_0.4.9-3ubuntu7_amd64.deb:
-  size: 167672
-  sha: 002ab6b97061b4938143f19ddc8810497ca11fe0
-open-iscsi_2.0.873-3ubuntu9_amd64.deb:
-  size: 267646
-  sha: 0b925d3e501d7bb57fb8ea2ab4a8dbec50383213
+multipath-tools_0.5.0+git1.656f8865-5ubuntu2_amd64.deb:
+  size: 188566
+  object_id: 26278c07-29b6-4ba2-47d2-387bf4d0d671
+  sha: 9b227dd6c8cd722562fcf1f37d96dad9d59c9df9
+open-iscsi_2.0.873+git0.3b4b4500-14ubuntu3_amd64.deb:
+  size: 333654
+  object_id: f07e096f-37c3-421a-733d-7b5ac973bd7c
+  sha: 1e0fd80de7c298dfa7e31a35d8031e5aa91d8f72
