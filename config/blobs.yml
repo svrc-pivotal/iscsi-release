@@ -6,3 +6,7 @@ open-iscsi_2.0.873+git0.3b4b4500-14ubuntu3_amd64.deb:
   size: 333654
   object_id: f07e096f-37c3-421a-733d-7b5ac973bd7c
   sha: 1e0fd80de7c298dfa7e31a35d8031e5aa91d8f72
+sg3-utils-udev_1.40-0ubuntu1_all.deb:
+  size: 5252
+  object_id: 5e94a7d4-1e2e-4241-5dd4-b8e713452658
+  sha: a14d3124e9304f4be4a4eee0e315d75eac8cb323
