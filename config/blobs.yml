@@ -1,3 +1,15 @@
+busybox-initramfs_1.22.0-15ubuntu1.4_amd64.deb:
+  size: 178714
+  object_id: 440ed012-4648-4ec7-4bcb-2d5eda3d13df
+  sha: b141ea175bca867c4f9a37fc450674f26d7759f8
+initramfs-tools-core_0.122ubuntu8.14_all.deb:
+  size: 44932
+  object_id: f49cfaa1-3a53-4c44-4dd0-32a2a98ca248
+  sha: 65c291da32a3cbab3ea9494975b2f23d41d96725
+initramfs-tools_0.122ubuntu8.14_all.deb:
+  size: 8938
+  object_id: a1621a19-75b3-45af-6412-b00168d539fd
+  sha: a7b407ff369d88e280065dc9e9bdfbfa180596cd
 multipath-tools_0.5.0+git1.656f8865-5ubuntu2_amd64.deb:
   size: 188566
   object_id: 26278c07-29b6-4ba2-47d2-387bf4d0d671
