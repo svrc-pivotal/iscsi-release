@@ -9,9 +9,9 @@
 # export BOSH_CA_CERT=/var/tempest/workspaces/default/root_ca_certificate 
 # export BOSH_ENVIRONMENT=10.0.0.10
 
-# Ensure the iSCSI release tarball is uploaded to Ops Manager,  this script assumes the filename is iscsi-1.2.tgz
+# Ensure the iSCSI release tarball is uploaded to Ops Manager,  this script assumes the filename is iscsi-1.4.tgz
 # Upload the iSCSI release tarball to the BOSH director
-bosh upload-release ./iscsi-1.2.tgz
+bosh upload-release ./iscsi-1.4.tgz
 
 # Apply the addon in a way that ops man won't overwrite it:
 bosh -n update-config --name=iscsi-addon --type=runtime ./pks-manifest.yml
