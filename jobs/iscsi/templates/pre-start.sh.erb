@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ex
+set -x
 
 # This is not exactly needed for iSCSI but does help with CSI plugins that need to hostPath mount things
 mount --make-rshared /
@@ -8,5 +8,32 @@ mount --make-rshared /
 # Install iSCSI
 cd /var/vcap/packages/iscsi
 DEBIAN_FRONTEND=noninteractive
-dpkg -r dracut
-dpkg -i *.deb
+
+wait_for_dpkg_lock() {
+while :
+do
+    if ! [[ `lsof /var/lib/dpkg/lock` ]]
+    then
+        break
+    fi
+    sleep 3
+done
+}
+while :
+do
+  dpkg -r dracut
+  if [ $? -ne 0 ] ; then
+  wait_for_dpkg_lock
+  else
+   break
+  fi
+done
+while :
+do
+  dpkg -i *.deb
+  if [ $? -ne 0 ] ; then
+  wait_for_dpkg_lock
+  else
+   break
+  fi
+done
