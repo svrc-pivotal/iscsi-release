@@ -2,6 +2,10 @@
 
 set -ex
 
+# This is not exactly needed for iSCSI but does help with CSI plugins that need to hostPath mount things
+mount --make-rshared /
+
+# Install iSCSI
 cd /var/vcap/packages/iscsi
 DEBIAN_FRONTEND=noninteractive
 dpkg -r dracut
