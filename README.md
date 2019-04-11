@@ -1,7 +1,7 @@
 # iscsi-release
 ISCSI initiator packages BOSH addon
 
-Version 1.1 - Xenial stemcells only
+Version 1.5 - Xenial stemcells only; also makes the root filesystem rshared, for CSI drivers
 
 Installs multipath tools and open-iscsi for Ubuntu trusty.  Currently doesn't configure the ISCSI initiator.
 
