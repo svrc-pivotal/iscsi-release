@@ -1,0 +1,15 @@
+name: iscsi
+version: "1.5"
+commit_hash: a3c3e7d
+uncommitted_changes: false
+jobs:
+- name: iscsi
+  version: e81e4732f6bace6cfd96da5a4b48a58a4fda7626
+  fingerprint: e81e4732f6bace6cfd96da5a4b48a58a4fda7626
+  sha1: 082381674df4513c8bc9bf044a975d31eeae4679
+packages:
+- name: iscsi
+  version: 77dd3ace2c6f9a976a1362f5014cc2f292022ea1
+  fingerprint: 77dd3ace2c6f9a976a1362f5014cc2f292022ea1
+  sha1: 9468b914c9f1f22b57071c479132a7b3ac75bd16
+  dependencies: []
