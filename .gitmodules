@@ -1,0 +1,3 @@
+[submodule "src/csi-xtremio-deploy"]
+	path = src/csi-xtremio-deploy
+	url = https://github.com/svrc-pivotal/csi-xtremio-deploy

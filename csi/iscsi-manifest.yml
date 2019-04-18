@@ -1,0 +1,21 @@
+# Manifest documentation is here https://bosh.io/docs/runtime-config
+# This manifest installs the iSCSI packages on all PKS VMs with a Kubelet job
+---
+name: iscsi-addons
+
+releases:
+- name: iscsi
+  version: 1.5
+
+addons:
+  - name: iscsi
+    jobs:
+    - name: iscsi
+      release: iscsi
+
+    include: 
+      jobs:
+      - name: kubelet
+        release: kubo
+      stemcell:
+      - os: ubuntu-xenial

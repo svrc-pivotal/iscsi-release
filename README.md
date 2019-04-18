@@ -13,3 +13,8 @@ Version 1.5 - Xenial stemcells only; also makes the root filesystem rshared
 Note:  This addon dpkg installs the standard debian packages which launches the iSCSI initiator as an Ubuntu service. 
 This should be fine if your bosh jobs that use iSCSI volumes do all their mounting/targeting after the pre-start phase.
 
+Usage:
+1.  See the `manifests` directory for examples and scripts for iSCSI
+2.  See the `csi` directory for examples and scripts for enabling CSI in CFCR or PKS
+2.  This repo includes a submodule, use `git submodule update --recursive` to update.
+
